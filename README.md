@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+# SpendWise – Mobile App (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+SpendWise is a personal expense tracker app built using **React Native** with **Expo**. It allows users to record income and expenses, categorize them, and track their financial health in real-time.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+- 🔐 User Authentication (Sign Up / Sign In)
+- ➕ Add Transactions (Income or Expense)
+- 💰 View Total Balance, Income, and Expenses
+- 🧾 See Recent Transactions
+- 🗂️ Categorize transactions (e.g., Food, Bills, Transportation)
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+- **Frontend:** React Native (Expo)
+- **Backend:** Express.js API (hosted separately)
+- **Database:** PostgreSQL (via backend API)
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Screenshots
 
-In the output, you'll find options to open the app in a
+![signin](https://github.com/user-attachments/assets/d757861e-02df-4dae-ab2e-24518bfdf528)
+![signup](https://github.com/user-attachments/assets/2d3c79ab-22f1-46bc-909e-7e79e06d629b)
+![home](https://github.com/user-attachments/assets/3192b22a-d6fa-4400-9b0a-01623fdc2659)
+![create_income](https://github.com/user-attachments/assets/52a24c9a-6e90-4974-b393-164b4f527e0c)
+![create_expense](https://github.com/user-attachments/assets/df358003-8929-4b5b-bdf5-63fd2db22a0a)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Getting Started
 
-## Get a fresh project
-
-When you're ready, run:
+### 1. Clone the repo
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/spendwise-app.git
+```
+### 2. Install dependencies
+
+```bash
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 3. Start the Expo server
 
-## Learn more
+```bash
+npx expo
+```
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
